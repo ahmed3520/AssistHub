@@ -11,6 +11,7 @@ We welcome the following types of contributions:
 - Bug fixes
 - New features
 - Documentation improvements
+- Creating new tools and functions
 - Code optimizations
 - Translations
 - Tests
