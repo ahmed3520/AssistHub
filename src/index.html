@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="chat-container">
+
+      <div class="chat-wrapper">
+        <div class="chat-header">
+          <h2>Chat with John</h2>
+        </div>
+        <div class="chat-history"></div>
+        <div class="chat-message">
+          <textarea placeholder="Type your message here..." id="chat-message-input"></textarea>
+          <button id="record-button"><i class="fa fa-microphone"></i></button>
+          <button id="upload-button"><i class="fa fa-paperclip"></i></button>
+          <button id="send-button">Send</button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+    <script>
+      const chatMessageInput = document.getElementById("chat-message-input");
+    
+      chatMessageInput.addEventListener("input", function() {
+        this.style.height = "40px";
+        this.style.height = (this.scrollHeight + 10) + "px";
+      });
+    </script>
+    
+  </body>
+</html>

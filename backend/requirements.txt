@@ -1,0 +1,8 @@
+langchain>=0.0.146
+transformers==4.27.1
+huggingface_hub
+argparse
+sentence-transformers
+faiss-cpu
+ttkthemes==3.2.2
+tk==0.1.0
